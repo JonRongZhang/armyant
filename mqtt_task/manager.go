@@ -17,11 +17,12 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 	"fmt"
-	"github.com/liangdas/armyant/task"
 	"io"
 	"io/ioutil"
 	"os"
 	"sync"
+
+	"github.com/jonrzhang/armyant/task"
 )
 
 type Manager struct {

@@ -15,10 +15,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/liangdas/armyant/mqtt_task"
-	"github.com/liangdas/armyant/task"
 	"os"
 	"os/signal"
+
+	"github.com/jonrzhang/armyant/mqtt_task"
+	"github.com/jonrzhang/armyant/task"
 )
 
 func main() {

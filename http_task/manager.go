@@ -14,10 +14,11 @@
 package http_task
 
 import (
-	"github.com/liangdas/armyant/task"
-	"github.com/liangdas/armyant/work"
 	"io"
 	"os"
+
+	"github.com/jonrzhang/armyant/task"
+	"github.com/jonrzhang/armyant/work"
 )
 
 // Run makes all the requests, prints the summary. It blocks until

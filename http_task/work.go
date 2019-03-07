@@ -15,10 +15,11 @@ package http_task
 
 import (
 	"fmt"
-	"github.com/liangdas/armyant/task"
-	"github.com/liangdas/armyant/work"
 	"net/http"
 	"time"
+
+	"github.com/jonrzhang/armyant/task"
+	"github.com/jonrzhang/armyant/work"
 )
 
 /**

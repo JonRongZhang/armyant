@@ -15,10 +15,11 @@ package mqtt_task
 
 import (
 	"fmt"
-	MQTT "github.com/eclipse/paho.mqtt.golang"
-	"github.com/liangdas/armyant/task"
-	"github.com/liangdas/armyant/work"
 	"time"
+
+	MQTT "github.com/eclipse/paho.mqtt.golang"
+	"github.com/jonrzhang/armyant/task"
+	"github.com/jonrzhang/armyant/work"
 )
 
 func NewWork(manager *Manager) *Work {

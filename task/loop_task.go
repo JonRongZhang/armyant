@@ -14,9 +14,10 @@
 package task
 
 import (
-	"github.com/liangdas/armyant/utils"
 	"sync"
 	"time"
+
+	"github.com/jonrzhang/armyant/utils"
 )
 
 type LoopTask struct {
